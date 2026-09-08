@@ -38,6 +38,7 @@ services:
 
   db:
     image: postgres:17-bookworm
+    command: ["postgres", "-c", "log_checkpoints=off"]
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-aircontrol}
