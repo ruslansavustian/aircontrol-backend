@@ -1,6 +1,6 @@
 # Aircontrol backend
 
-NestJS + TypeScript + TypeORM + PostgreSQL. Принимает показания ESP32, сохраняет их в таблицу `measurements`, затем пишет `measurement.saved` в консоль. Генерация показаний выполняется на устройстве. `source: mock` означает вымышленные данные.
+NestJS + TypeScript + TypeORM + PostgreSQL. Принимает показания ESP32, сохраняет их в таблицу `measurements`, логирует только ошибки сохранения, без сообщений на каждый успешный запрос или дубль. Генерация показаний выполняется на устройстве. `source: mock` означает вымышленные данные.
 
 ## Запуск Docker (существующий Nginx)
 
