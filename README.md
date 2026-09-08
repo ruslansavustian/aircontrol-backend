@@ -25,10 +25,10 @@ docker compose logs -f
 ```sh
 git pull --ff-only
 docker compose up -d --build
-curl --fail https://aircontrol.savustian.de/api/v1/health
+docker compose ps
 ```
 
-Health проверяет доступность БД (`SELECT 1`). Не использовать `docker compose down -v`: это удаляет данные. Обычное пересоздание контейнеров сохраняет volume. Изменение POSTGRES_PASSWORD в .env не меняет пароль в уже инициализированной БД.
+Docker проверяет TCP-порт API; это подтверждает прослушивание порта, но не доступность БД из API. PostgreSQL проверяется отдельно через pg_isready. HTTP health endpoint удалён. Не использовать `docker compose down -v`: это удаляет данные. Обычное пересоздание контейнеров сохраняет volume. Изменение POSTGRES_PASSWORD в .env не меняет пароль в уже инициализированной БД.
 
 ## Локальная разработка с Node.js
 
@@ -78,7 +78,6 @@ docker compose exec -T db pg_dump -U aircontrol -d aircontrol -Fc > backups/airc
 - src/database/data-source.ts — единая конфигурация NestJS и TypeORM CLI.
 - src/database/migrations/ — версионированная схема.
 - src/modules/measurements/ — DTO, entity, guard, controller, service.
-- src/modules/health/ — проверка доступности API/БД.
 
 Проверки: `npm run build`, `npm run typecheck`, `npm run migration:show`. Добавляя новую миграцию, зарегистрируй её в data-source.ts.
 
