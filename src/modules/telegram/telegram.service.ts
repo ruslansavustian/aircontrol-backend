@@ -5,7 +5,7 @@ import { calculateAverages } from "../measurements/utils/calculate-averages";
 import { telegramConfig } from "./telegram.config";
 import { TelegramClient } from "./telegram.client";
 import { TelegramDeliveriesService } from "./telegram-deliveries.service";
-import { completedWindow, pickFact, renderSummary, WINDOW_MS } from "./summary";
+import { pickFact, renderSummary } from "./summary";
 
 @Injectable()
 export class TelegramService implements OnApplicationBootstrap, OnApplicationShutdown {
@@ -21,7 +21,7 @@ export class TelegramService implements OnApplicationBootstrap, OnApplicationShu
 
   onApplicationBootstrap() {
     if (!telegramConfig.enabled) return;
-    this.timer = setInterval(() => this.schedule(), 15_000);
+    this.timer = setInterval(() => this.schedule(), telegramConfig.checkIntervalMs);
     this.timer.unref();
     this.schedule();
   }
@@ -39,20 +39,23 @@ export class TelegramService implements OnApplicationBootstrap, OnApplicationShu
   }
 
   async sendSummary(now = new Date()): Promise<void> {
-    const end = completedWindow(now);
-    const start = new Date(end.getTime() - WINDOW_MS);
     const { deviceId } = config;
     const { chatId } = telegramConfig;
-    if (await this.deliveries.hasAttempt(deviceId, chatId, end)) return;
+    const latest = await this.deliveries.latest(deviceId, chatId);
+    const lastActivity = latest?.sentAt ?? latest?.attemptedAt;
+    if (lastActivity && now.getTime() - lastActivity.getTime() < telegramConfig.reportIntervalMs) return;
+
+    const end = now;
+    const start = new Date(end.getTime() - telegramConfig.reportWindowMs);
 
     const measurements = await this.measurements.findForPeriod(deviceId, start, end, now);
     const averages = calculateAverages(measurements);
     const unknownTime = await this.measurements.countWithoutTime(deviceId, start, end);
     const recentFacts = await this.deliveries.recentFactIds(deviceId, chatId);
     const fact = pickFact(recentFacts);
-    const text = renderSummary(end, averages, unknownTime, fact);
+    const text = renderSummary(start, end, averages, unknownTime, fact);
 
-    const deliveryId = await this.deliveries.reserve(deviceId, chatId, end, text, fact.id);
+    const deliveryId = await this.deliveries.reserve(deviceId, chatId, start, end, text, fact.id, latest?.id);
     if (!deliveryId) return;
     try {
       const messageId = await this.client.send(text);

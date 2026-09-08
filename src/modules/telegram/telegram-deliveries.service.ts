@@ -10,8 +10,10 @@ export class TelegramDeliveriesService {
     private readonly repository: Repository<TelegramDelivery>,
   ) {}
 
-  hasAttempt(deviceId: string, chatId: string, windowEnd: Date) {
-    return this.repository.existsBy({ deviceId, chatId, windowEnd });
+  latest(deviceId: string, chatId: string) {
+    return this.repository.findOne({
+      where: { deviceId, chatId }, order: { attemptedAt: "DESC", id: "DESC" },
+    });
   }
 
   async recentFactIds(deviceId: string, chatId: string) {
@@ -22,10 +24,16 @@ export class TelegramDeliveriesService {
     return deliveries.map(delivery => delivery.factId);
   }
 
-  async reserve(deviceId: string, chatId: string, windowEnd: Date, text: string, factId: string) {
-    // Insert before sending. Only one process can claim this period, even after restart.
+  async reserve(
+    deviceId: string, chatId: string, start: Date, end: Date,
+    text: string, factId: string, previousId?: string,
+  ) {
+    // Concurrent checks reference the same preceding report, so only one can insert.
     const result = await this.repository.createQueryBuilder().insert()
-      .values({ deviceId, chatId, windowEnd, text, factId, status: "sending", attempts: 1 })
+      .values({
+        deviceId, chatId, windowStart: start, windowEnd: end, attemptedAt: end,
+        scheduleKey: previousId ?? "first", text, factId, status: "sending", attempts: 1,
+      })
       .orIgnore().returning("id").execute();
     return result.raw[0]?.id as string | undefined;
   }

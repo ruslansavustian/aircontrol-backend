@@ -6,6 +6,9 @@ export class TelegramDelivery {
   @PrimaryGeneratedColumn("uuid") id!: string;
   @Column({ name: "device_id", type: "varchar", length: 64 }) deviceId!: string;
   @Column({ name: "chat_id", type: "text" }) chatId!: string;
+  @Column({ name: "window_start", type: "timestamptz" }) windowStart!: Date;
+  @Column({ name: "attempted_at", type: "timestamptz" }) attemptedAt!: Date;
+  @Column({ name: "schedule_key", type: "text", nullable: true }) scheduleKey!: string | null;
   @Column({ name: "window_end", type: "timestamptz" }) windowEnd!: Date;
   @Column({ type: "text" }) text!: string;
   @Column({ name: "fact_id", type: "text" }) factId!: string;
