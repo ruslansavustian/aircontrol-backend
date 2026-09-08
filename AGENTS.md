@@ -1,5 +1,7 @@
 # Backend монитора воздуха
 
-Самостоятельный репозиторий NestJS + TypeScript. Команды и контракт — README.md. Доменные модули — src/modules/. Данные сохраняются через TypeORM в PostgreSQL, затем логируются. Схема через миграции, synchronize=false. TelegramModule отправляет сводки завершённых 15-минутных окон при TELEGRAM_ENABLED=true. Факты в JSON с источниками; mock отмечается тестовым. Учитывай статусы доставки в БД, не обещай exactly-once.
+Самостоятельный репозиторий NestJS + TypeScript. Команды и контракт — README.md. Доменные модули — src/modules/. Данные сохраняются через TypeORM в PostgreSQL; логируются только ошибки. Схема через миграции, synchronize=false. TelegramModule отправляет сводки завершённых 15-минутных окон при TELEGRAM_ENABLED=true. Факты в JSON с источниками; mock отмечается тестовым. Учитывай статусы доставки в БД, не обещай exactly-once.
 
 Работай на русском, объясняй небольшими шагами. Если доступна общая ../docs/, перед работой читай README.md, PROGRESS.md и нужный этап ROADMAP.md; после содержательной работы обновляй PROGRESS.md. В отдельном клоне опирайся на этот README.md. Не сохраняй .env, токены и другие секреты в Git или логах. Проверяй npm run build и npm run typecheck после изменений TypeScript. Контроллер — отдельный репозиторий, не добавляй файловых зависимостей от него.
+
+Сводки: MeasurementsService получает entity за период, measurements/utils/calculate-averages.ts считает средние локально. TelegramService координирует, summary.ts форматирует, TelegramClient отправляет. TelegramDeliveriesService сохраняет одну попытку на период; автоматических повторов и advisory lock нет. sending/unknown требуют ручной проверки канала.
