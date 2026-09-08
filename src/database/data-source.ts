@@ -1,3 +1,4 @@
+import { TelegramDelivery } from "../modules/telegram/entities/telegram-delivery.entity";
 import { CreateTelegramDeliveries1788861600000 } from './migrations/1788861600000-CreateTelegramDeliveries';
 import 'reflect-metadata';
 import 'dotenv/config';
@@ -16,7 +17,7 @@ export const databaseOptions: DataSourceOptions = {
   username: process.env.POSTGRES_USER ?? 'aircontrol',
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB ?? 'aircontrol',
-  entities: [Measurement],
+  entities: [Measurement, TelegramDelivery],
   migrations: [CreateMeasurements1788858000000, CreateTelegramDeliveries1788861600000],
   synchronize: false,
   migrationsRun: false,

@@ -7,6 +7,7 @@ import { MeasurementsService } from './measurements.service';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Measurement])],
+  exports: [MeasurementsService],
   controllers: [MeasurementsController],
   providers: [MeasurementsService, DeviceTokenGuard],
 })

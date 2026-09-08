@@ -5,7 +5,7 @@ import {
   ServiceUnavailableException,
 } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
-import { Repository } from "typeorm";
+import { And, IsNull, LessThan, LessThanOrEqual, MoreThanOrEqual, Repository } from "typeorm";
 import { config } from "../../config";
 import { CreateMeasurementDto } from "./dto/create-measurement.dto";
 import { Measurement } from "./entities/measurement.entity";
@@ -17,6 +17,22 @@ export class MeasurementsService {
     @InjectRepository(Measurement)
     private readonly repository: Repository<Measurement>,
   ) {}
+
+  findForPeriod(deviceId: string, start: Date, end: Date, now: Date) {
+    return this.repository.findBy({
+      deviceId,
+      measuredAt: And(MoreThanOrEqual(start), LessThan(end)),
+      receivedAt: LessThanOrEqual(now),
+    });
+  }
+
+  countWithoutTime(deviceId: string, start: Date, end: Date) {
+    return this.repository.countBy({
+      deviceId,
+      measuredAt: IsNull(),
+      receivedAt: And(MoreThanOrEqual(start), LessThan(end)),
+    });
+  }
 
   async accept(measurement: CreateMeasurementDto) {
     if (measurement.deviceId !== config.deviceId) {
