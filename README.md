@@ -74,7 +74,7 @@ npm run send:example -- https://air.example.com
 
 ```sh
 cd ../controller
-cp firmware/main/api_config.example.h firmware/main/api_config.local.h
+cp firmware/main/config/api_config.example.h firmware/main/config/api_config.local.h
 ```
 
 Укажи локально:
@@ -95,7 +95,7 @@ ESP32 подключается к Wi-Fi, синхронизирует часы �
 
 HTTPS проверяет сертификат через ESP-IDF certificate bundle. Если часы не синхронизировались, отправка ждёт. Очереди и повторной отправки конкретного измерения пока нет: после ошибки следующий цикл создаёт новое. Wi-Fi делает максимум 5 повторов; длительные обрывы разберём отдельно.
 
-Источник данных выделен в `firmware/main/measurement_source.h` и `mock_measurement_source.cpp`. Позже реализацию заменим на чтение PMS5003; транспорт и API сохранятся, а обработку отсутствия показаний добавим вместе с драйвером.
+Источник данных выделен в `firmware/main/modules/measurements/measurement_source.h` и `mock_measurement_source.cpp`. Позже реализацию заменим на чтение PMS5003; транспорт и API сохранятся, а обработку отсутствия показаний добавим вместе с драйвером.
 
 ## Сервер с существующим Nginx (aircontrol.savustian.de)
 
