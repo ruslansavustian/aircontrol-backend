@@ -12,17 +12,24 @@
     "start:prod": "node dist/main.js",
     "start:dev": "tsc-watch --onSuccess \"node dist/main.js\"",
     "dev": "npm run start:dev",
-    "send:example": "node scripts/send-example.cjs"
+    "send:example": "node scripts/send-example.cjs",
+    "migration:run": "typeorm migration:run -d dist/database/data-source.js",
+    "migration:show": "typeorm migration:show -d dist/database/data-source.js",
+    "telegram:chat": "node scripts/telegram-setup.cjs chat",
+    "telegram:test": "node scripts/telegram-setup.cjs test"
   },
   "dependencies": {
     "@nestjs/common": "^11.2.3",
     "@nestjs/core": "^11.2.3",
     "@nestjs/platform-express": "^11.2.3",
+    "@nestjs/typeorm": "^11.0.3",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.15.1",
     "dotenv": "^17.4.2",
+    "pg": "^8.23.0",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.2"
+    "rxjs": "^7.8.2",
+    "typeorm": "^0.3.31"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
