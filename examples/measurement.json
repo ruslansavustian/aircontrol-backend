@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "deviceId": "home-air-01",
+  "source": "mock",
+  "bootId": "00000000000000000000000000000001",
+  "sequence": 1,
+  "measuredAt": null,
+  "uptimeMs": 30000,
+  "windowSeconds": 0,
+  "sampleCount": 1,
+  "pm1_ug_m3": 5.2,
+  "pm25_ug_m3": 9.1,
+  "pm10_ug_m3": 12.4,
+  "firmwareVersion": "0.2.0-mock"
+}
