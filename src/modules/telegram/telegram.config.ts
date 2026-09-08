@@ -8,8 +8,8 @@ function minutes(name: string, fallback: number): number {
 
 export const telegramConfig = {
   checkIntervalMs: 10_000,
-  reportIntervalMs: minutes("TELEGRAM_REPORT_INTERVAL_MINUTES", 15),
-  reportWindowMs: minutes("TELEGRAM_REPORT_WINDOW_MINUTES", 15),
+  reportIntervalMs: minutes("TELEGRAM_REPORT_INTERVAL_MINUTES", 1440),
+  reportWindowMs: minutes("TELEGRAM_REPORT_WINDOW_MINUTES", 1440),
   enabled: process.env.TELEGRAM_ENABLED === "true",
   token: process.env.TELEGRAM_BOT_TOKEN ?? "",
   chatId: process.env.TELEGRAM_CHAT_ID ?? "",
