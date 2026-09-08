@@ -96,3 +96,17 @@ ESP32 подключается к Wi-Fi, синхронизирует часы �
 HTTPS проверяет сертификат через ESP-IDF certificate bundle. Если часы не синхронизировались, отправка ждёт. Очереди и повторной отправки конкретного измерения пока нет: после ошибки следующий цикл создаёт новое. Wi-Fi делает максимум 5 повторов; длительные обрывы разберём отдельно.
 
 Источник данных выделен в `firmware/main/measurement_source.h` и `mock_measurement_source.cpp`. Позже реализацию заменим на чтение PMS5003; транспорт и API сохранятся, а обработку отсутствия показаний добавим вместе с драйвером.
+
+## Сервер с существующим Nginx (aircontrol.savustian.de)
+
+На myserver репозиторий размещён в /root/aircontrol/backend, controller клонируется отдельно в /root/aircontrol/controller. Для этой установки используется **compose.nginx.yaml**, без Caddy. Nginx принимает HTTPS и направляет запросы на 127.0.0.1:3030; внутри контейнера NestJS слушает 3000.
+
+Обновление из корня серверного backend:
+
+```sh
+git pull --ff-only
+docker compose -f compose.nginx.yaml up -d --build
+docker compose -f compose.nginx.yaml logs -f api
+```
+
+.env хранится только на сервере (права 600); BACKEND_PORT по умолчанию 3030. Конфигурация Nginx: /etc/nginx/sites-available/aircontrol.savustian.de. Сертификат обслуживает Certbot; webroot для ACME — /var/www/aircontrol. Для проверки: https://aircontrol.savustian.de/api/v1/health.
