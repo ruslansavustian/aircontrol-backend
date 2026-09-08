@@ -86,6 +86,6 @@ docker compose exec -T db pg_dump -U aircontrol -d aircontrol -Fc > backups/airc
 
 Настройки устройства: отдельный репозиторий controller, файл firmware/main/config/api_config.local.h. endpoint — https://aircontrol.savustian.de/api/v1/measurements, тот же DEVICE_TOKEN и DEVICE_ID. Для этого обновления БД менять прошивку не нужно.
 
-Telegram: [пошаговая инструкция](TELEGRAM.md). Доступны команды настройки и теста; автоматическая рассылка не включена.
+Telegram: [пошаговая инструкция](TELEGRAM.md). Доступны команды настройки/теста и TelegramModule со сводкой каждые 15 минут; включается TELEGRAM_ENABLED=true. Подробности о канале, окнах, фактах и доставке — в TELEGRAM.md.
 
 Для отдельного нового сервера со свободными 80/443 есть альтернативный compose.caddy.yaml: задай DOMAIN и запускай `docker compose -f compose.caddy.yaml up -d --build`. На текущем Hetzner используй стандартный compose.yaml, существующий Nginx и Certbot.

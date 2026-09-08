@@ -1,0 +1,502 @@
+[
+  {
+    "id": "air-001",
+    "text": "Повітряні частинки бувають не лише твердими: крихітні краплі рідини теж належать до PM.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-002",
+    "text": "PM2.5 — це частинки з діаметром приблизно до 2,5 мікрометра.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-003",
+    "text": "PM10 охоплює частинки з діаметром приблизно до 10 мікрометрів.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-004",
+    "text": "Людська волосина значно товща за частинки PM2.5: її типовий діаметр — близько 70 мікрометрів.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-005",
+    "text": "Частинки в повітрі можуть мати різну форму та хімічний склад.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-006",
+    "text": "Деякі частинки настільки малі, що побачити їх можна лише за допомогою спеціальної мікроскопії.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-007",
+    "text": "Будівельні роботи можуть бути джерелом частинок у повітрі.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-008",
+    "text": "Ґрунтові дороги й поля також можуть постачати пил в атмосферу.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-009",
+    "text": "Частина забруднювальних частинок утворюється вже в атмосфері внаслідок хімічних реакцій.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-010",
+    "text": "Пожежі викидають у повітря частинки диму й сажі.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+    "id": "air-011",
+    "text": "Дрібні частинки можуть проникати глибоко в легені, а деякі — потрапляти в кровотік.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-012",
+    "text": "Вплив забруднення частинками стосується не лише легень, а й серцево-судинної системи.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-013",
+    "text": "Забруднення частинками може погіршувати перебіг астми.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-014",
+    "text": "Діти й літні люди належать до груп, чутливіших до забруднення частинками.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-015",
+    "text": "Люди із захворюваннями серця або легень можуть бути особливо чутливими до забрудненого повітря.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-016",
+    "text": "Дрібні частинки можуть утворювати серпанок і зменшувати видимість.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-017",
+    "text": "Вітер здатний переносити забруднювальні частинки на великі відстані.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-018",
+    "text": "Після перенесення повітрям частинки можуть осідати на землю або у воду.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-019",
+    "text": "Залежно від складу осілі частинки можуть змінювати баланс поживних речовин у водоймах.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-020",
+    "text": "Частинки забруднення можуть забруднювати й пошкоджувати камінь та інші матеріали пам’яток.",
+    "sourceUrl": "https://www.epa.gov/pm-pollution/health-and-environmental-effects-particulate-matter-pm"
+  },
+  {
+    "id": "air-021",
+    "text": "Частинки в оселі можуть походити і з вулиці, і з джерел усередині.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-022",
+    "text": "Вуличні частинки потрапляють до приміщення не лише через вікна, а й через щілини.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-023",
+    "text": "Приготування їжі може підвищувати концентрацію частинок у приміщенні.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-024",
+    "text": "Запалена свічка також може бути джерелом частинок у кімнаті.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-025",
+    "text": "Каміни й інші джерела горіння можуть впливати на рівень PM у приміщенні.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-026",
+    "text": "Тютюновий дим є одним із джерел дрібних частинок у повітрі оселі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-027",
+    "text": "Деякі дії під час прибирання піднімають осілий пил у повітря.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-028",
+    "text": "Принтери можуть бути одним із внутрішніх джерел частинок.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-029",
+    "text": "Хімічні реакції між речовинами в кімнатному повітрі теж можуть створювати нові частинки.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-030",
+    "text": "Зменшення самих джерел частинок — важливий спосіб покращення повітря в приміщенні.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/sources-indoor-particulate-matter-pm"
+  },
+  {
+    "id": "air-031",
+    "text": "Портативний очищувач зазвичай призначений для окремої кімнати або зони.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-032",
+    "text": "Фільтри центральної вентиляції очищують повітря, що проходить через цю систему.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-033",
+    "text": "Очищення повітря доповнює зменшення джерел забруднення, але не замінює його.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-034",
+    "text": "Жоден очищувач не видаляє всі забруднювачі з повітря.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-035",
+    "text": "Ефективність очищувача залежить від його відповідності розміру приміщення.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-036",
+    "text": "Фільтри для частинок і засоби видалення газів виконують різні завдання.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-037",
+    "text": "Заміна забруднених фільтрів є частиною належного догляду за системою очищення.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-038",
+    "text": "Провітрювання чистим зовнішнім повітрям може доповнювати фільтрацію в оселі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-039",
+    "text": "Саморобні очищувачі з вентилятором і фільтром можуть зменшувати кількість частинок за належної конструкції.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-040",
+    "text": "Очищувачі, які навмисно утворюють озон, можуть додавати до повітря подразнювальний газ.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home"
+  },
+  {
+    "id": "air-041",
+    "text": "Недостатня вентиляція може сприяти накопиченню забруднювачів усередині будівлі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-042",
+    "text": "Забруднювачі в приміщенні бувають як частинками, так і газами.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-043",
+    "text": "Будівельні матеріали та меблі можуть виділяти речовини в повітря.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-044",
+    "text": "Деякі джерела забруднення діють постійно, інші — лише під час певних занять.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-045",
+    "text": "Після завершення роботи з джерелом забруднення його речовини можуть ще залишатися в повітрі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-046",
+    "text": "Висока температура й вологість можуть збільшувати концентрацію деяких внутрішніх забруднювачів.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-047",
+    "text": "Неправильно налаштована газова плита може виділяти більше чадного газу.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-048",
+    "text": "Чутливість людей до забруднювачів повітря відрізняється.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-049",
+    "text": "Подразнення очей, носа або горла може бути одним із проявів впливу забрудненого повітря.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-050",
+    "text": "Деякі наслідки впливу забрудненого повітря проявляються не одразу, а з часом.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/introduction-indoor-air-quality"
+  },
+  {
+    "id": "air-051",
+    "text": "Для росту плісняви потрібна волога.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-052",
+    "text": "Спори плісняви можуть переноситися повітрям.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-053",
+    "text": "Повністю прибрати всі спори плісняви з оселі практично неможливо.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-054",
+    "text": "Усунення джерела вологи допомагає запобігати повторному росту плісняви.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-055",
+    "text": "Очищення поверхні без усунення протікання не розв’язує причину появи плісняви.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-056",
+    "text": "Пліснява може пошкоджувати матеріал, на якому росте.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-057",
+    "text": "Конденсат на поверхнях може вказувати на проблему з вологістю.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-058",
+    "text": "Витяжка у ванній допомагає відводити вологе повітря.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-059",
+    "text": "Просушування мокрих матеріалів протягом 24–48 годин допомагає запобігти росту плісняви.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-060",
+    "text": "EPA радить підтримувати вологість у приміщенні нижче 60%, за можливості — 30–50%.",
+    "sourceUrl": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home"
+  },
+  {
+    "id": "air-061",
+    "text": "Озон складається з трьох атомів кисню.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-062",
+    "text": "Озон у верхніх шарах атмосфери захищає нас від частини ультрафіолетового випромінювання.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-063",
+    "text": "Біля поверхні Землі озон є забруднювачем повітря.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-064",
+    "text": "Приземний озон переважно утворюється внаслідок реакцій інших речовин, а не викидається безпосередньо.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-065",
+    "text": "Сонячне світло бере участь у реакціях утворення приземного озону.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-066",
+    "text": "Оксиди азоту й леткі органічні сполуки є попередниками приземного озону.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-067",
+    "text": "Спекотні сонячні дні можуть сприяти високому рівню приземного озону.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-068",
+    "text": "Озон може переноситися вітром далеко від місця свого утворення.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-069",
+    "text": "Підвищений рівень озону можливий і в сільській місцевості.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-070",
+    "text": "Викиди транспорту та промисловості можуть містити речовини, з яких згодом утворюється озон.",
+    "sourceUrl": "https://www.epa.gov/ground-level-ozone-pollution/ground-level-ozone-basics"
+  },
+  {
+    "id": "air-071",
+    "text": "Аерозолі — це завислі в атмосфері тверді частинки або краплі рідини.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-072",
+    "text": "Деякі атмосферні аерозолі залишаються в повітрі від кількох днів до тижнів.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-073",
+    "text": "Дощ і сніг можуть вимивати аерозольні частинки з атмосфери.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-074",
+    "text": "Частина аерозолів утворюється з природних джерел, а частина — через діяльність людини.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-075",
+    "text": "Морська сіль може потрапляти в атмосферу у вигляді аерозолю.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-076",
+    "text": "Мінеральний пил є одним із видів атмосферного аерозолю.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-077",
+    "text": "Аерозолі можуть змінювати те, скільки сонячної енергії відбивається або поглинається.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-078",
+    "text": "Частинки можуть слугувати центрами, навколо яких утворюються краплі хмар.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-079",
+    "text": "За певних умов більша кількість дрібних крапель робить хмару світлішою.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-080",
+    "text": "Світлі сліди хмар над маршрутами суден допомагають досліджувати вплив аерозолів на хмари.",
+    "sourceUrl": "https://www.gfdl.noaa.gov/aerosols-and-climate/"
+  },
+  {
+    "id": "air-081",
+    "text": "Місце встановлення сенсора впливає на те, які умови він відображає.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-082",
+    "text": "Датчик біля джерела пилу може показувати дуже локальну картину.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-083",
+    "text": "Вільний доступ повітря до сенсора важливий для вимірювання.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-084",
+    "text": "Вікна та двері можуть створювати швидкі зміни умов біля сенсора.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-085",
+    "text": "Потоки від вентиляції можуть впливати на умови біля встановленого датчика.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-086",
+    "text": "Різкі зміни температури та вологості можуть впливати на деякі сенсори.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-087",
+    "text": "Після встановлення корисно перевірити, чи не домінує поруч окреме джерело забруднення.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-088",
+    "text": "Для вимірювань просто неба потрібно враховувати захист приладу від погодних умов.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-089",
+    "text": "Запис місця й умов встановлення допомагає правильно тлумачити показання.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-090",
+    "text": "Порівняння сенсорів поруч допомагає відрізняти вплив розташування від відмінностей приладів.",
+    "sourceUrl": "https://www.epa.gov/air-sensor-toolbox/guide-siting-and-installing-air-sensors"
+  },
+  {
+    "id": "air-091",
+    "text": "Недорогий монітор може вимірювати один або кілька конкретних показників повітря.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-092",
+    "text": "Різні моделі моніторів можуть вимірювати різні забруднювачі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-093",
+    "text": "Один показник не описує всі можливі забруднювачі в приміщенні.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-094",
+    "text": "Монітори можуть допомагати помічати зміни повітря під час повсякденних занять.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-095",
+    "text": "Показання недорогих сенсорів можуть відрізнятися від результатів точніших еталонних приладів.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-096",
+    "text": "Температура й вологість можуть впливати на результати деяких недорогих моніторів.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-097",
+    "text": "Інструкція виробника важлива для правильного встановлення та використання монітора.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-098",
+    "text": "Побутовий монітор якості повітря не замінює сертифікований сигналізатор чадного газу.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-099",
+    "text": "Виявлення зміни показань саме по собі не встановлює точне джерело забруднення.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-100",
+    "text": "Монітор може допомагати оцінювати, як провітрювання чи очищення змінює показання.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  }
+]

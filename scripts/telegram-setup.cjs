@@ -6,7 +6,7 @@ async function main() {
   if (!['chat', 'test'].includes(action)) throw new Error('Use telegram:chat or telegram:test');
   const method = action === 'chat' ? 'getUpdates' : 'sendMessage';
   if (action === 'test' && !/^-?\d+$/.test(process.env.TELEGRAM_CHAT_ID || '')) throw new Error('Set TELEGRAM_CHAT_ID in .env');
-  const body = action === 'chat' ? { timeout: 0, allowed_updates: ['message'] } : {
+  const body = action === 'chat' ? { timeout: 0, allowed_updates: ['message', 'channel_post', 'my_chat_member'] } : {
     chat_id: process.env.TELEGRAM_CHAT_ID,
     text: 'Aircontrol: подключение к Telegram работает. Это тест, не показания датчика.',
   };
@@ -19,8 +19,8 @@ async function main() {
   if (action === 'test') { console.log('Test message sent.'); return; }
   const chats = new Map();
   for (const update of result.result) {
-    const chat = update.message?.chat;
-    if (chat) chats.set(chat.id, { id: chat.id, type: chat.type });
+    const chat = update.message?.chat || update.channel_post?.chat || update.my_chat_member?.chat;
+    if (chat) chats.set(chat.id, { id: chat.id, type: chat.type, title: chat.title, username: chat.username });
   }
   console.log(chats.size ? [...chats.values()] : 'No messages. Open your bot, press Start, then retry.');
 }

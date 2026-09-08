@@ -1,3 +1,4 @@
+import { CreateTelegramDeliveries1788861600000 } from './migrations/1788861600000-CreateTelegramDeliveries';
 import 'reflect-metadata';
 import 'dotenv/config';
 import { DataSource, DataSourceOptions } from 'typeorm';
@@ -16,7 +17,7 @@ export const databaseOptions: DataSourceOptions = {
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB ?? 'aircontrol',
   entities: [Measurement],
-  migrations: [CreateMeasurements1788858000000],
+  migrations: [CreateMeasurements1788858000000, CreateTelegramDeliveries1788861600000],
   synchronize: false,
   migrationsRun: false,
   logging: false,
