@@ -1,3 +1,4 @@
+name: aircontrol
 services:
   api:
     build: .
@@ -8,8 +9,8 @@ services:
       PORT: 3000
       DEVICE_ID: ${DEVICE_ID:-home-air-01}
       DEVICE_TOKEN: ${DEVICE_TOKEN:?Set DEVICE_TOKEN in .env}
-    expose:
-      - "3000"
+    ports:
+      - "127.0.0.1:${BACKEND_PORT:-3030}:3000"
     healthcheck:
       test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/v1/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
       interval: 30s
@@ -20,26 +21,3 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
-  caddy:
-    image: caddy:2
-    restart: unless-stopped
-    depends_on:
-      api:
-        condition: service_healthy
-    environment:
-      DOMAIN: ${DOMAIN:?Set DOMAIN in .env}
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-    logging:
-      driver: json-file
-      options:
-        max-size: "10m"
-        max-file: "3"
-volumes:
-  caddy_data:
-  caddy_config:

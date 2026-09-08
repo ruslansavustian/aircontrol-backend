@@ -45,7 +45,7 @@ npm run send:example
 
 Ответ `202` означает, что данные проверены и выведены в лог. Хранения и удаления дублей пока нет. `400` — неверное тело, `401` — неверный/отсутствующий токен, `403` — другое устройство, `413` — тело больше лимита. Неизвестные поля запрещены.
 
-## Hetzner и домен
+## Новый сервер с Caddy (альтернативный вариант)
 
 Этот Compose предназначен для сервера с установленным Docker Compose и свободными портами 80/443. Если там уже работает Nginx/Caddy/Traefik, сначала адаптируем подключение к существующему proxy.
 
@@ -55,8 +55,8 @@ npm run send:example
 4. Запусти:
 
 ```sh
-docker compose up -d --build
-docker compose logs -f api
+docker compose -f compose.caddy.yaml up -d --build
+docker compose -f compose.caddy.yaml logs -f api
 ```
 
 Caddy получает и обновляет сертификат автоматически; данные сертификатов сохраняются в volume. Условия — в [документации Caddy](https://caddyserver.com/docs/automatic-https). Порт API 3000 доступен внутри Compose; публичный вход — HTTPS через Caddy.
@@ -99,14 +99,14 @@ HTTPS проверяет сертификат через ESP-IDF certificate bun
 
 ## Сервер с существующим Nginx (aircontrol.savustian.de)
 
-На myserver репозиторий размещён в /root/aircontrol/backend, controller клонируется отдельно в /root/aircontrol/controller. Для этой установки используется **compose.nginx.yaml**, без Caddy. Nginx принимает HTTPS и направляет запросы на 127.0.0.1:3030; внутри контейнера NestJS слушает 3000.
+На myserver репозиторий размещён в /root/aircontrol/backend, controller клонируется отдельно в /root/aircontrol/controller. Для этой установки используется **compose.yaml**, без Caddy. Nginx принимает HTTPS и направляет запросы на 127.0.0.1:3030; внутри контейнера NestJS слушает 3000.
 
 Обновление из корня серверного backend:
 
 ```sh
 git pull --ff-only
-docker compose -f compose.nginx.yaml up -d --build
-docker compose -f compose.nginx.yaml logs -f api
+docker compose up -d --build
+docker compose logs -f api
 ```
 
 .env хранится только на сервере (права 600); BACKEND_PORT по умолчанию 3030. Конфигурация Nginx: /etc/nginx/sites-available/aircontrol.savustian.de. Сертификат обслуживает Certbot; webroot для ACME — /var/www/aircontrol. Для проверки: https://aircontrol.savustian.de/api/v1/health.
