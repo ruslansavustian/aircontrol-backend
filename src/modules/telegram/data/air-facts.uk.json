@@ -498,5 +498,1305 @@
     "id": "air-100",
     "text": "Монітор може допомагати оцінювати, як провітрювання чи очищення змінює показання.",
     "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality"
+  },
+  {
+    "id": "air-101",
+    "text": "Кислотні випадіння бувають не лише дощем: це також сніг, туман і пил.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-102",
+    "text": "Сірчана й азотна кислоти можуть утворюватися безпосередньо в атмосфері.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-103",
+    "text": "Вітер переносить речовини, що спричиняють кислотні дощі, через державні кордони.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-104",
+    "text": "Навіть звичайний дощ трохи кислий через розчинений вуглекислий газ.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-105",
+    "text": "Шкала pH показує кислотність: нижче значення означає кисліше середовище.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-106",
+    "text": "Кислотні гази й частинки можуть осідати на поверхнях без дощу.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-107",
+    "text": "Наступна злива може змити накопичені на поверхнях кислотні речовини у водойми.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-108",
+    "text": "Вулкани — одне з природних джерел речовин, що спричиняють кислотні випадіння.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-109",
+    "text": "Спалювання викопного палива постачає атмосфері попередники кислотних дощів.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-110",
+    "text": "Кислотні випадіння можуть змінювати хімічний склад озер і струмків.",
+    "sourceUrl": "https://www.epa.gov/acidrain/what-acid-rain"
+  },
+  {
+    "id": "air-111",
+    "text": "Місто може бути теплішим за околиці через накопичення тепла забудовою.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-112",
+    "text": "Дороги й дахи повертають у повітря тепло, накопичене вдень.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-113",
+    "text": "Міський острів тепла може зберігатися після заходу сонця.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-114",
+    "text": "Острови тепла виникають і в невеликих містах.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-115",
+    "text": "Сусідні міські квартали можуть мати різну температуру через забудову й озеленення.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-116",
+    "text": "Вузькі вулиці між високими будинками можуть послаблювати природне провітрювання.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-117",
+    "text": "Кондиціонер охолоджує кімнату, але його зовнішній блок віддає тепло надворі.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-118",
+    "text": "Автомобілі додають міському середовищу не лише викиди, а й тепло.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-119",
+    "text": "Ясна безвітряна погода сприяє посиленню міського острова тепла.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-120",
+    "text": "Сильний вітер і хмарність можуть послаблювати міський острів тепла.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-121",
+    "text": "Температура гарячого асфальту може значно перевищувати температуру повітря над ним.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-122",
+    "text": "Вчені окремо досліджують нагрів міських поверхонь і нагрів повітря.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-123",
+    "text": "Перегріте місто потребує більше електроенергії для охолодження будівель.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-124",
+    "text": "Дощова вода може нагріватися на гарячих дахах і дорогах.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-125",
+    "text": "Нагрітий міський стік здатен підвищувати температуру води у струмках.",
+    "sourceUrl": "https://www.epa.gov/heatislands/what-are-heat-islands"
+  },
+  {
+    "id": "air-126",
+    "text": "Чадний газ не має кольору й запаху: органи чуття не виявляють його надійно.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-127",
+    "text": "Чадний газ може утворюватися під час неповного згоряння палива.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-128",
+    "text": "Чадний газ заважає крові нормально переносити кисень.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-129",
+    "text": "Вихлоп автомобіля у прибудованому гаражі може стати джерелом чадного газу в оселі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-130",
+    "text": "Забитий або негерметичний димохід може сприяти потраплянню чадного газу в приміщення.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-131",
+    "text": "Вихлоп переносного генератора містить чадний газ.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-132",
+    "text": "Відчинені двері гаража не роблять роботу генератора всередині безпечною.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-133",
+    "text": "Небезпечний чадний газ може залишатися в приміщенні після вимкнення генератора.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-134",
+    "text": "Наслідки впливу чадного газу залежать і від концентрації, і від тривалості вдихання.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-135",
+    "text": "Справність та правильне налаштування паливного обладнання важливі для запобігання викидам чадного газу.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/carbon-monoxides-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-136",
+    "text": "Хмари класифікують за висотою та зовнішнім виглядом.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-137",
+    "text": "Перисті хмари складаються з кристаликів льоду.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-138",
+    "text": "Перисто-шаруваті хмари нагадують тонку небесну вуаль.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-139",
+    "text": "Крижані кристали хмар можуть створювати гало навколо Сонця чи Місяця.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-140",
+    "text": "Висококупчасті хмари іноді шикуються в паралельні ряди.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-141",
+    "text": "Шаруваті хмари можуть давати мряку.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-142",
+    "text": "Шарувато-дощові хмари пов'язані з тривалим дощем або снігом.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-143",
+    "text": "Купчасті хмари часто мають пласку основу й округлу верхівку.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-144",
+    "text": "Потужні висхідні потоки допомагають грозовій хмарі рости вгору.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-145",
+    "text": "У хмарах трапляються рідкі краплі з температурою нижче нуля.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-146",
+    "text": "Префікс «alto» у назвах хмар позначає середній ярус.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-147",
+    "text": "Частина «nimbo» у назві хмари пов'язана з опадами.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-148",
+    "text": "Шарувато-купчасті хмари поєднують суцільний шар з окремими грудками.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-149",
+    "text": "Хмари mammatus мають мішкоподібні виступи знизу.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-150",
+    "text": "Mammatus можуть супроводжувати й несильні грози.",
+    "sourceUrl": "https://www.weather.gov/lmk/cloud_classification"
+  },
+  {
+    "id": "air-151",
+    "text": "Блакитне небо виникає завдяки розсіюванню сонячного світла повітрям.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-152",
+    "text": "Біле сонячне світло містить кольори всього видимого спектра.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-153",
+    "text": "Синє світло має коротшу довжину хвилі, ніж червоне.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-154",
+    "text": "Молекули повітря розсіюють синє світло сильніше за червоне.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-155",
+    "text": "Біля горизонту сонячне світло проходить довший шлях крізь атмосферу.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-156",
+    "text": "Небо біля горизонту часто світліше через багаторазове розсіювання світла.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-157",
+    "text": "На заході Сонця до очей доходить відносно більше червоного й жовтого світла.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-158",
+    "text": "Аерозолі теж впливають на кольори заходу Сонця.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-159",
+    "text": "Колір неба залежить від складу атмосфери планети.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-160",
+    "text": "На Марсі небо біля Сонця під час заходу може мати блакитний відтінок.",
+    "sourceUrl": "https://spaceplace.nasa.gov/blue-sky/en/"
+  },
+  {
+    "id": "air-161",
+    "text": "Пори року змінюються через нахил земної осі.",
+    "sourceUrl": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": "air-162",
+    "text": "Коли в Північній півкулі літо, у Південній — зима.",
+    "sourceUrl": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": "air-163",
+    "text": "Земля найближча до Сонця під час зими у Північній півкулі.",
+    "sourceUrl": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": "air-164",
+    "text": "Зміна відстані до Сонця не є головною причиною наших сезонів.",
+    "sourceUrl": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": "air-165",
+    "text": "Обертання Землі навколо осі створює чергування дня й ночі.",
+    "sourceUrl": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": "air-166",
+    "text": "Протягом року різні частини Землі отримують найбільш прямі сонячні промені.",
+    "sourceUrl": "https://spaceplace.nasa.gov/seasons/en/"
+  },
+  {
+    "id": "air-167",
+    "text": "Нижній шар атмосфери, де ми живемо, називається тропосферою.",
+    "sourceUrl": "https://spaceplace.nasa.gov/troposphere/en/"
+  },
+  {
+    "id": "air-168",
+    "text": "Близько трьох чвертей маси атмосфери зосереджено у тропосфері.",
+    "sourceUrl": "https://spaceplace.nasa.gov/troposphere/en/"
+  },
+  {
+    "id": "air-169",
+    "text": "Тропосфера тонша біля полюсів.",
+    "sourceUrl": "https://spaceplace.nasa.gov/troposphere/en/"
+  },
+  {
+    "id": "air-170",
+    "text": "Азот становить приблизно 78% сухого повітря.",
+    "sourceUrl": "https://spaceplace.nasa.gov/troposphere/en/"
+  },
+  {
+    "id": "air-171",
+    "text": "Кисень становить приблизно 21% сухого повітря.",
+    "sourceUrl": "https://spaceplace.nasa.gov/troposphere/en/"
+  },
+  {
+    "id": "air-172",
+    "text": "Повітря найщільніше в найнижчих шарах атмосфери.",
+    "sourceUrl": "https://spaceplace.nasa.gov/troposphere/en/"
+  },
+  {
+    "id": "air-173",
+    "text": "Стратосфера розташована над тропосферою та під мезосферою.",
+    "sourceUrl": "https://spaceplace.nasa.gov/stratosphere/en/"
+  },
+  {
+    "id": "air-174",
+    "text": "У стратосфері температура загалом зростає з висотою.",
+    "sourceUrl": "https://spaceplace.nasa.gov/stratosphere/en/"
+  },
+  {
+    "id": "air-175",
+    "text": "Вертикальне перемішування повітря у стратосфері слабше, ніж у тропосфері.",
+    "sourceUrl": "https://spaceplace.nasa.gov/stratosphere/en/"
+  },
+  {
+    "id": "air-176",
+    "text": "Багато метеорів згорають у мезосфері.",
+    "sourceUrl": "https://spaceplace.nasa.gov/mesosphere/en/"
+  },
+  {
+    "id": "air-177",
+    "text": "Мезосфера лежить між стратосферою й термосферою.",
+    "sourceUrl": "https://spaceplace.nasa.gov/mesosphere/en/"
+  },
+  {
+    "id": "air-178",
+    "text": "У мезосфері повітря вже надто розріджене для людського дихання.",
+    "sourceUrl": "https://spaceplace.nasa.gov/mesosphere/en/"
+  },
+  {
+    "id": "air-179",
+    "text": "Орбіта Міжнародної космічної станції проходить у термосфері.",
+    "sourceUrl": "https://spaceplace.nasa.gov/thermosphere/en/"
+  },
+  {
+    "id": "air-180",
+    "text": "Висока температура розрідженого газу не означає, що він добре зігріває предмети.",
+    "sourceUrl": "https://spaceplace.nasa.gov/thermosphere/en/"
+  },
+  {
+    "id": "air-181",
+    "text": "У термосфері молекул так мало, що передавання тепла зіткненнями дуже слабке.",
+    "sourceUrl": "https://spaceplace.nasa.gov/thermosphere/en/"
+  },
+  {
+    "id": "air-182",
+    "text": "Випаровування переводить рідку воду в газоподібний стан.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-183",
+    "text": "Вода випаровується навіть без кипіння.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-184",
+    "text": "Для випаровування води потрібна енергія.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-185",
+    "text": "Випаровування забирає тепло з навколишнього середовища.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-186",
+    "text": "Великі градирні використовують випаровування для охолодження води.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-187",
+    "text": "Більшість атмосферної вологи надходить від випаровування з водойм.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-188",
+    "text": "Океани роблять великий внесок у випаровування завдяки своїй величезній площі.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-189",
+    "text": "У глобальному водному циклі випаровування приблизно врівноважується опадами.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-190",
+    "text": "Випарний охолоджувач пропускає сухе повітря крізь вологий матеріал.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-191",
+    "text": "Прохолода після протирання шкіри спиртом пов'язана з його швидким випаровуванням.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evaporation-and-water-cycle"
+  },
+  {
+    "id": "air-192",
+    "text": "Транспірація — це виділення водяної пари листям рослин.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-193",
+    "text": "Вода з ґрунту може пройти крізь коріння й листя до атмосфери.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-194",
+    "text": "Пара виходить із листка через маленькі отвори — продихи.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-195",
+    "text": "Евапотранспірація об'єднує випаровування та транспірацію.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-196",
+    "text": "Рослинна транспірація невидима для ока.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-197",
+    "text": "Листок за сезон може випарувати воду, маса якої багаторазово перевищує його власну.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-198",
+    "text": "Різні види рослин віддають атмосфері різну кількість води.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-199",
+    "text": "Кактуси й сукуленти зберігають воду, зокрема завдяки меншій транспірації.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-200",
+    "text": "Зростання вологості повітря зазвичай уповільнює транспірацію.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-201",
+    "text": "Вітер може прискорювати транспірацію, замінюючи вологе повітря біля листка сухішим.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-202",
+    "text": "Нестача ґрунтової води може зменшувати її віддачу рослинами в атмосферу.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-203",
+    "text": "Інтенсивність сонячного світла впливає на транспірацію рослин.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/evapotranspiration-and-water-cycle"
+  },
+  {
+    "id": "air-204",
+    "text": "Конденсація перетворює водяну пару на рідку воду.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-205",
+    "text": "Краплі зовні холодної склянки надходять із навколишнього повітря.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-206",
+    "text": "Холодні окуляри можуть запітніти при виході у тепле вологе повітря.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-207",
+    "text": "Видихнута волога сприяє запотіванню автомобільного скла.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-208",
+    "text": "Навіть безхмарне небо містить невидиму водяну пару.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-209",
+    "text": "Піднімаючись і охолоджуючись, вологе повітря може утворювати хмари.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-210",
+    "text": "Хмари переносять воду між різними місцевостями.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-211",
+    "text": "Краплі у хмарі можуть зростати, зливаючись між собою.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-212",
+    "text": "Уночі хмари можуть зменшувати втрату тепла земною поверхнею.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-213",
+    "text": "Зміни хмарного покриву впливають на енергетичний баланс Землі.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/condensation-and-water-cycle"
+  },
+  {
+    "id": "air-214",
+    "text": "Сублімація дозволяє льоду перетворюватися на пару без рідкої стадії.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-215",
+    "text": "Сніг може зникати навіть тоді, коли не тане.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-216",
+    "text": "Замерзла білизна здатна висихати на морозі завдяки сублімації.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-217",
+    "text": "Сухе повітря сприяє сублімації снігу.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-218",
+    "text": "Сухі вітри можуть прискорювати втрату снігу через сублімацію.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-219",
+    "text": "Низький атмосферний тиск у горах сприяє сублімації.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-220",
+    "text": "Сонячна енергія може забезпечувати сублімацію навіть за низької температури.",
+    "sourceUrl": "https://www.usgs.gov/water-science-school/science/sublimation-and-water-cycle"
+  },
+  {
+    "id": "air-221",
+    "text": "Відносна вологість залежить від температури повітря.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-222",
+    "text": "Нагрівання повітря без додавання вологи знижує його відносну вологість.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-223",
+    "text": "Охолодження повітря без втрати вологи підвищує його відносну вологість.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-224",
+    "text": "Абсолютна вологість описує масу водяної пари в об'ємі повітря.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-225",
+    "text": "Питома вологість описує масу водяної пари відносно маси повітря.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-226",
+    "text": "Точка роси — температура охолодження повітря до насичення водяною парою.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-227",
+    "text": "При насиченні температура повітря дорівнює точці роси.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-228",
+    "text": "Відносна вологість 100% не гарантує дощу.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-229",
+    "text": "Однакові відсотки вологості за різних температур не означають однакову кількість водяної пари.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-230",
+    "text": "Для визначення відносної вологості за точкою роси потрібна також температура повітря.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-231",
+    "text": "Вітер переносить водяну пару з одного регіону до іншого.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-232",
+    "text": "Метеорологи використовують точку роси для оцінювання вмісту вологи в повітрі.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-233",
+    "text": "Насичення біля землі може сприяти туману, а вище — хмарам.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-234",
+    "text": "Кристали льоду в хмарах можуть зростати шляхом об'єднання.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-235",
+    "text": "Щоб випасти з хмари, частинкам опадів потрібно достатньо вирости.",
+    "sourceUrl": "https://www.weather.gov/lmk/humidity"
+  },
+  {
+    "id": "air-236",
+    "text": "Ізобари на погодній карті з'єднують точки однакового атмосферного тиску.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-237",
+    "text": "Фронт — межа повітряних мас із різними властивостями.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-238",
+    "text": "Холодний фронт приносить наступ холоднішого повітря на тепліше.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-239",
+    "text": "Холодні фронти бувають у будь-яку пору року.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-240",
+    "text": "Біля холодного фронту підйом вологого повітря може спричиняти дощ.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-241",
+    "text": "Тепле повітря на теплому фронті піднімається над холоднішим.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-242",
+    "text": "Опади можуть починатися ще перед проходженням теплого фронту.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-243",
+    "text": "Стаціонарний фронт майже не переміщується.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-244",
+    "text": "Адвекція означає перенесення властивостей повітря вітром.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-245",
+    "text": "Струменева течія — вузька зона швидкого вітру високо в атмосфері.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-246",
+    "text": "Взимку струменеві течії зазвичай сильніші через більші температурні контрасти.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-247",
+    "text": "Ізотахи на карті з'єднують точки однакової швидкості вітру.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-248",
+    "text": "Температура різних шарів повітря визначає, чи дістануться землі сніг, дощ або льодяні крупинки.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-249",
+    "text": "Переохолоджені краплі дощу можуть замерзати при зіткненні з поверхнею.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-250",
+    "text": "У Північній півкулі приземний вітер обтікає область низького тиску проти годинникової стрілки.",
+    "sourceUrl": "https://www.weather.gov/lmk/basic-fronts"
+  },
+  {
+    "id": "air-251",
+    "text": "Радіаційний туман виникає через нічне охолодження повітря біля землі.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-radiation"
+  },
+  {
+    "id": "air-252",
+    "text": "Захищені від вітру долини сприятливі для утворення радіаційного туману.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-radiation"
+  },
+  {
+    "id": "air-253",
+    "text": "Шар нічного туману може поступово товщати під час подальшого охолодження.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-radiation"
+  },
+  {
+    "id": "air-254",
+    "text": "Сонячне прогрівання часто розсіює радіаційний туман наступного дня.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-radiation"
+  },
+  {
+    "id": "air-255",
+    "text": "Радіаційний туман нерідко утворюється окремими плямами.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-radiation"
+  },
+  {
+    "id": "air-256",
+    "text": "У Центральній долині Каліфорнії відомий особливо густий зимовий туман tule.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-radiation"
+  },
+  {
+    "id": "air-257",
+    "text": "Адвективний туман виникає, коли тепле вологе повітря проходить над холодною поверхнею.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-advection"
+  },
+  {
+    "id": "air-258",
+    "text": "Адвективний туман може формуватися навіть за хмарного неба й помітного вітру.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-advection"
+  },
+  {
+    "id": "air-259",
+    "text": "Вітер здатен переносити адвективний туман над місцевістю.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-advection"
+  },
+  {
+    "id": "air-260",
+    "text": "Адвективний туман іноді тримається кілька днів.",
+    "sourceUrl": "https://www.weather.gov/safety/fog-advection"
+  },
+  {
+    "id": "air-261",
+    "text": "Грім виникає через стрімке нагрівання та розширення повітря блискавкою.",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+    "id": "air-262",
+    "text": "Світло блискавки доходить до нас раніше за звук грому.",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+    "id": "air-263",
+    "text": "Гуркіт грому складається зі звуків різних ділянок довгого каналу блискавки.",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+    "id": "air-264",
+    "text": "Найближчу частину каналу блискавки ми чуємо першою.",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+    "id": "air-265",
+    "text": "Повітря в каналі блискавки може нагріватися приблизно до 28 тисяч градусів Цельсія.",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+    "id": "air-266",
+    "text": "Якщо чути грім, блискавка вже може становити небезпеку для людини надворі.",
+    "sourceUrl": "https://www.weather.gov/safety/lightning-science-thunder"
+  },
+  {
+    "id": "air-267",
+    "text": "Ультрафіолетове випромінювання невидиме для людського ока.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-268",
+    "text": "Ультрафіолет поділяють на UVA, UVB та UVC.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-269",
+    "text": "Сонячне UVC поглинається атмосферою й не досягає земної поверхні.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-270",
+    "text": "Більшість ультрафіолету біля земної поверхні належить до UVA.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-271",
+    "text": "UVB має коротшу довжину хвилі, ніж UVA.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-272",
+    "text": "UVA проникає у шкіру глибше, ніж UVB.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-273",
+    "text": "Хмарний день не виключає сонячного опіку.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-274",
+    "text": "Інтенсивність UVB біля землі залежить від широти, висоти та пори року.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-275",
+    "text": "Надмірний ультрафіолет може пошкоджувати не лише шкіру, а й очі.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-276",
+    "text": "Тінь зменшує вплив Сонця, але не забезпечує повного захисту від ультрафіолету.",
+    "sourceUrl": "https://www.epa.gov/radtown/ultraviolet-uv-radiation-and-sun-exposure"
+  },
+  {
+    "id": "air-277",
+    "text": "Метеозонд передає вимірювання атмосфери по радіо.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-278",
+    "text": "Кулю метеозонда наповнюють гелієм або воднем.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-279",
+    "text": "Метеозонд вимірює температуру, вологість і тиск під час підйому.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-280",
+    "text": "Вітер на висоті можна визначати, відстежуючи переміщення метеозонда.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-281",
+    "text": "GPS допомагає стежити за польотом метеозонда.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-282",
+    "text": "Політ метеозонда може тривати понад дві години.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-283",
+    "text": "Метеорологічна куля може піднятися вище 35 кілометрів.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-284",
+    "text": "За один політ вітер може віднести метеозонд більш ніж на 300 кілометрів.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-285",
+    "text": "Під час підйому метеорологічна куля розширюється через зниження зовнішнього тиску.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-286",
+    "text": "На великій висоті метеорологічна куля зрештою лопається.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-287",
+    "text": "Датчик підвішують далеко під кулею, щоб її нагрів менше впливав на вимірювання.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-288",
+    "text": "Дані метеозондів зберігають для подальших досліджень атмосфери.",
+    "sourceUrl": "https://www.weather.gov/upperair/factsheet"
+  },
+  {
+    "id": "air-289",
+    "text": "Вода покриває близько 71% поверхні Землі.",
+    "sourceUrl": "https://spaceplace.nasa.gov/water/en/"
+  },
+  {
+    "id": "air-290",
+    "text": "Більшість земної води солона.",
+    "sourceUrl": "https://spaceplace.nasa.gov/water/en/"
+  },
+  {
+    "id": "air-291",
+    "text": "Значна частина прісної води зберігається у льодовиках і льодових щитах.",
+    "sourceUrl": "https://spaceplace.nasa.gov/water/en/"
+  },
+  {
+    "id": "air-292",
+    "text": "Підземні води — важливе сховище прісної води на планеті.",
+    "sourceUrl": "https://spaceplace.nasa.gov/water/en/"
+  },
+  {
+    "id": "air-293",
+    "text": "В атмосфері міститься лише мала частка загальних запасів земної води.",
+    "sourceUrl": "https://spaceplace.nasa.gov/water/en/"
+  },
+  {
+    "id": "air-294",
+    "text": "Індекс спеки враховує одночасно температуру та відносну вологість.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-295",
+    "text": "Стандартний індекс спеки розрахований для тіні й слабкого вітру.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-296",
+    "text": "Пряме сонячне проміння може посилювати теплове навантаження порівняно з тінню.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-297",
+    "text": "Показник WBGT враховує також вітер і сонячне випромінювання.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-298",
+    "text": "Для оцінки теплового навантаження на спортсменів застосовують WBGT.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-299",
+    "text": "Одна лише температура повітря не описує всі умови теплового стресу.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-300",
+    "text": "Спекотні ночі можуть продовжувати теплове навантаження наступного дня.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-301",
+    "text": "Тривалість незвичайної спеки важлива при оцінюванні її ризику.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-302",
+    "text": "Звичність спеки для місцевості враховується у системі NWS HeatRisk.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-303",
+    "text": "Час сезону теж враховується у системі оцінювання спеки NWS HeatRisk.",
+    "sourceUrl": "https://www.weather.gov/safety/heat-index"
+  },
+  {
+    "id": "air-304",
+    "text": "Вітер у холодну погоду прискорює втрату тепла відкритою шкірою.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-305",
+    "text": "Wind chill описує відчуття холоду через спільну дію температури й вітру.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-306",
+    "text": "Відчутна температура холоду — розрахунок, а не окремий показ термометра.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-307",
+    "text": "Модель NWS wind chill спирається на теплообмін людського обличчя.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-308",
+    "text": "Стандартний розрахунок wind chill не враховує зігрівання Сонцем.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-309",
+    "text": "Вітер прискорює охолодження сухих предметів до температури навколишнього повітря.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-310",
+    "text": "Сам вітер не охолоджує суху неживу річ нижче температури повітря.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-311",
+    "text": "Формула NWS wind chill має обмежений діапазон застосування за температурою та швидкістю вітру.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-312",
+    "text": "Для wind chill швидкість вітру перераховують із висоти приладу до рівня людського обличчя.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-313",
+    "text": "Холод може бути небезпечним і за відсутності вітру.",
+    "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart"
+  },
+  {
+    "id": "air-314",
+    "text": "Леткі органічні сполуки можуть виділятися газами як із рідких, так і з твердих матеріалів.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-315",
+    "text": "Фарби й лаки можуть бути джерелами летких органічних сполук.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-316",
+    "text": "Побутові засоби можуть виділяти органічні сполуки навіть під час зберігання.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-317",
+    "text": "Клеї та перманентні маркери належать до можливих джерел летких органічних сполук.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-318",
+    "text": "Освіжувачі повітря самі можуть виділяти леткі органічні сполуки.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-319",
+    "text": "Деякі засоби від молі є джерелами летких органічних сполук.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-320",
+    "text": "Серед летких органічних сполук є речовини з дуже різною токсичністю.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-321",
+    "text": "Формальдегід — одна з відомих летких органічних сполук у приміщеннях.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-322",
+    "text": "Бензен може потрапляти в домашнє повітря з тютюновим димом.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-323",
+    "text": "Пари збереженого палива можуть впливати на повітря в оселі.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-324",
+    "text": "Газоподібні речовини можуть просочуватися навіть із закритої тари з побутовою хімією.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-325",
+    "text": "Одяг після деяких видів хімчистки може виділяти залишки розчинника в повітря.",
+    "sourceUrl": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality"
+  },
+  {
+    "id": "air-326",
+    "text": "Діоксид азоту позначають формулою NO₂.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-327",
+    "text": "NO₂ належить до реакційноздатної групи оксидів азоту.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-328",
+    "text": "Спалювання палива є основним джерелом надходження NO₂ в повітря.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-329",
+    "text": "Високі концентрації NO₂ можуть подразнювати дихальні шляхи.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-330",
+    "text": "Люди з астмою особливо чутливі до впливу NO₂.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-331",
+    "text": "Оксиди азоту беруть участь в утворенні дрібних частинок в атмосфері.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-332",
+    "text": "Нітратні частинки, утворені з оксидів азоту, можуть погіршувати видимість.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-333",
+    "text": "Атмосферні оксиди азоту можуть сприяти надлишковому надходженню поживних речовин у прибережні води.",
+    "sourceUrl": "https://www.epa.gov/no2-pollution/basic-information-about-no2"
+  },
+  {
+    "id": "air-334",
+    "text": "Діоксид сірки позначають формулою SO₂.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-335",
+    "text": "Паливо з високим вмістом сірки може спричиняти викиди SO₂.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-336",
+    "text": "Видобування металів із руди може бути джерелом діоксиду сірки.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-337",
+    "text": "Вулкани здатні викидати діоксид сірки в атмосферу.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-338",
+    "text": "Короткочасний вплив SO₂ може утруднювати дихання.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-339",
+    "text": "Високі концентрації газоподібних оксидів сірки можуть пошкоджувати листя рослин.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-340",
+    "text": "Зменшення викидів SO₂ може зменшувати утворення дрібних сульфатних частинок.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-341",
+    "text": "Сульфатні частинки, утворені в атмосфері, можуть погіршувати видимість.",
+    "sourceUrl": "https://www.epa.gov/so2-pollution/sulfur-dioxide-basics"
+  },
+  {
+    "id": "air-342",
+    "text": "Вітер може погіршувати видимість, піднімаючи вже випалий сніг із землі.",
+    "sourceUrl": "https://www.weather.gov/safety/winter-snow"
+  },
+  {
+    "id": "air-343",
+    "text": "Сніговий шквал — короткий інтенсивний снігопад із сильними поривами вітру.",
+    "sourceUrl": "https://www.weather.gov/safety/winter-snow"
+  },
+  {
+    "id": "air-344",
+    "text": "Вага накопиченого снігу може ламати дерева й пошкоджувати дахи.",
+    "sourceUrl": "https://www.weather.gov/safety/winter-snow"
+  },
+  {
+    "id": "air-345",
+    "text": "Легкий короткий сніг іноді не утворює помітного покриву.",
+    "sourceUrl": "https://www.weather.gov/safety/winter-snow"
+  },
+  {
+    "id": "air-346",
+    "text": "У горах сильне накопичення снігу може сприяти лавинам.",
+    "sourceUrl": "https://www.weather.gov/safety/winter-snow"
+  },
+  {
+    "id": "air-347",
+    "text": "Веселку створюють заломлення й відбиття світла у водяних краплях.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-348",
+    "text": "Для сонячної веселки Сонце має бути позаду спостерігача.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-349",
+    "text": "Видима висота дуги веселки залежить від положення Сонця.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-350",
+    "text": "З літака за відповідних умов можна побачити веселку повним колом.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-351",
+    "text": "Веселка містить безперервну множину відтінків, а не лише сім кольорів.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-352",
+    "text": "Другу дугу подвійної веселки утворює подвійне відбиття світла всередині краплі.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-353",
+    "text": "У другій дузі веселки порядок кольорів зворотний.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-354",
+    "text": "Друга дуга веселки зазвичай тьмяніша за основну.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-355",
+    "text": "Темнішу смугу між двома дугами веселки називають смугою Александра.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-356",
+    "text": "У тумані може виникати широка майже біла веселка.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-357",
+    "text": "Дуже дрібні краплі туману розмивають кольори веселки через дифракцію.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-358",
+    "text": "Веселку може створити навіть місячне світло.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-359",
+    "text": "Місячна веселка часто здається білою через слабке освітлення.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
+  },
+  {
+    "id": "air-360",
+    "text": "Фотографія з довгою витримкою може показати кольори місячної веселки, непомітні оку.",
+    "sourceUrl": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows"
   }
 ]
