@@ -1,7 +1,7 @@
 import { Injectable, Logger, OnApplicationBootstrap, OnApplicationShutdown } from "@nestjs/common";
 import { config } from "../../config";
 import { MeasurementsService } from "../measurements/measurements.service";
-import { calculateAverages } from "../measurements/utils/calculate-averages";
+import { calculateStatistics } from "../measurements/utils/calculate-statistics";
 import { telegramConfig } from "./telegram.config";
 import { TelegramClient } from "./telegram.client";
 import { TelegramDeliveriesService } from "./telegram-deliveries.service";
@@ -49,11 +49,11 @@ export class TelegramService implements OnApplicationBootstrap, OnApplicationShu
     const start = new Date(end.getTime() - telegramConfig.reportWindowMs);
 
     const measurements = await this.measurements.findForPeriod(deviceId, start, end, now);
-    const averages = calculateAverages(measurements);
+    const statistics = calculateStatistics(measurements);
     const unknownTime = await this.measurements.countWithoutTime(deviceId, start, end);
     const recentFacts = await this.deliveries.recentFactIds(deviceId, chatId);
     const fact = pickFact(recentFacts);
-    const text = renderSummary(start, end, averages, unknownTime, fact);
+    const text = renderSummary(start, end, statistics, unknownTime, fact);
 
     const deliveryId = await this.deliveries.reserve(deviceId, chatId, start, end, text, fact.id, latest?.id);
     if (!deliveryId) return;

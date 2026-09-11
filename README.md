@@ -85,6 +85,20 @@ docker compose exec -T db pg_dump -U aircontrol -d aircontrol -Fc > backups/airc
 
 Настройки устройства: отдельный репозиторий controller, файл firmware/main/config/api_config.local.h. endpoint — https://aircontrol.savustian.de/api/v1/measurements, тот же DEVICE_TOKEN и DEVICE_ID. Для этого обновления БД менять прошивку не нужно.
 
-Telegram: [пошаговая инструкция](TELEGRAM.md). Доступны команды настройки/теста и TelegramModule со сводкой каждые 15 минут; включается TELEGRAM_ENABLED=true. Подробности о канале, окнах, фактах и доставке — в TELEGRAM.md.
+Telegram: [пошаговая инструкция](TELEGRAM.md). Доступны команды настройки/теста и TelegramModule со сводкой каждый час за последний час; включается TELEGRAM_ENABLED=true. Подробности о канале, окнах, фактах и доставке — в TELEGRAM.md.
 
 Для отдельного нового сервера со свободными 80/443 есть альтернативный compose.caddy.yaml: задай DOMAIN и запускай `docker compose -f compose.caddy.yaml up -d --build`. На текущем Hetzner используй стандартный compose.yaml, существующий Nginx и Certbot.
+
+## Adminer через SSH
+
+Compose запускает отдельный Adminer для этой БД на `127.0.0.1:8081`. PostgreSQL остаётся внутри сети Compose. Telani Adminer на 8080 не меняется.
+
+На Mac добавь в ~/.zshrc (путь к своему клону):
+
+```zsh
+source "/Volumes/doc-station/c++/esp32+PM5003/backend/scripts/tunnel.zsh"
+```
+
+После `source ~/.zshrc`: `tunnel myserver` открывает Telani через http://127.0.0.1:8080, `tunnel myserver controller` — Aircontrol через http://127.0.0.1:8081. Держи терминал открытым. Сохраняется синтаксис `tunnel host local_port remote_port`.
+
+В Adminer выбери PostgreSQL, сервер `db`, пользователя и базу `aircontrol` (либо свои POSTGRES_USER/POSTGRES_DB). Пароль — существующий POSTGRES_PASSWORD из серверной .env. Это пароль БД, не DEVICE_TOKEN.
