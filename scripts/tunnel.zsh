@@ -1,7 +1,7 @@
 # Source from ~/.zshrc. Keeps the existing numeric port syntax.
 tunnel() {
   if [[ -z "${1:-}" ]]; then
-    echo "usage: tunnel <ssh-host> [controller | local_port [remote_port]]"
+    echo "usage: tunnel <ssh-host> [aircontroller | controller | local_port [remote_port]]"
     return 1
   fi
 
@@ -11,12 +11,16 @@ tunnel() {
   local -a extra_options
   extra_options=()
 
-  if [[ "$local_port" == controller ]]; then
+  if [[ "$local_port" == aircontroller || "$local_port" == controller ]]; then
     if (( $# > 2 )); then
-      echo "usage: tunnel <ssh-host> controller"
+      echo "usage: tunnel <ssh-host> aircontroller"
       return 1
     fi
-    local_port=8081
+    if [[ "$local_port" == aircontroller ]]; then
+      local_port=8082
+    else
+      local_port=8081
+    fi
     remote_port=8081
     extra_options=(-o 'RemoteCommand=cd /root/aircontrol/backend && exec bash -l')
   fi

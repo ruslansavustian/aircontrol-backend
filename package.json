@@ -12,11 +12,9 @@
     "start:prod": "node dist/main.js",
     "start:dev": "tsc-watch --onSuccess \"node dist/main.js\"",
     "dev": "npm run start:dev",
-    "send:example": "node scripts/send-example.cjs",
     "migration:run": "typeorm migration:run -d dist/database/data-source.js",
     "migration:show": "typeorm migration:show -d dist/database/data-source.js",
-    "telegram:chat": "node scripts/telegram-setup.cjs chat",
-    "telegram:test": "node scripts/telegram-setup.cjs test"
+    "telegram:chat": "node scripts/telegram-setup.cjs chat"
   },
   "dependencies": {
     "@nestjs/common": "^11.2.3",

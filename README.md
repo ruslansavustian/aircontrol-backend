@@ -40,11 +40,10 @@ npm run migration:run
 npm run dev
 ```
 
-В другом терминале: `npm run send:example`. Для удалённого API: `npm run send:example -- https://aircontrol.savustian.de` (DEVICE_TOKEN/DEVICE_ID должны совпадать с сервером).
 
 ## Таблица и API
 
-`POST /api/v1/measurements`, `Authorization: Bearer <DEVICE_TOKEN>`. Полный JSON: examples/measurement.json. Валидация DTO, неизвестные поля запрещены, размер до 4 KiB.
+`POST /api/v1/measurements`, `Authorization: Bearer <DEVICE_TOKEN>`. Контракт полей: src/modules/measurements/dto/. Валидация DTO, неизвестные поля запрещены, размер до 4 KiB.
 
 В measurements хранятся UUID id, deviceId, source, bootId, sequence, PM1/PM2.5/PM10 в мкг/м³, measuredAt (UTC, nullable), receivedAt (время БД), uptimeMs, sampleCount, windowSeconds, firmwareVersion и schemaVersion. bigint поля в TypeORM представлены строками во избежание потери точности; API по-прежнему принимает проверенные числа.
 
@@ -85,7 +84,7 @@ docker compose exec -T db pg_dump -U aircontrol -d aircontrol -Fc > backups/airc
 
 Настройки устройства: отдельный репозиторий controller, файл firmware/main/config/api_config.local.h. endpoint — https://aircontrol.savustian.de/api/v1/measurements, тот же DEVICE_TOKEN и DEVICE_ID. Для этого обновления БД менять прошивку не нужно.
 
-Telegram: [пошаговая инструкция](TELEGRAM.md). Доступны команды настройки/теста и TelegramModule со сводкой каждый час за последний час; включается TELEGRAM_ENABLED=true. Подробности о канале, окнах, фактах и доставке — в TELEGRAM.md.
+Telegram: [пошаговая инструкция](TELEGRAM.md). Доступна команда определения chat ID и TelegramModule со сводкой каждый час за последний час; включается TELEGRAM_ENABLED=true. Подробности о канале, окнах, фактах и доставке — в TELEGRAM.md.
 
 Для отдельного нового сервера со свободными 80/443 есть альтернативный compose.caddy.yaml: задай DOMAIN и запускай `docker compose -f compose.caddy.yaml up -d --build`. На текущем Hetzner используй стандартный compose.yaml, существующий Nginx и Certbot.
 
@@ -99,6 +98,6 @@ Compose запускает отдельный Adminer для этой БД на 
 source "/Volumes/doc-station/c++/esp32+PM5003/backend/scripts/tunnel.zsh"
 ```
 
-После `source ~/.zshrc`: `tunnel myserver` открывает Telani через http://127.0.0.1:8080, `tunnel myserver controller` — Aircontrol через http://127.0.0.1:8081. Держи терминал открытым. Сохраняется синтаксис `tunnel host local_port remote_port`.
+После `source ~/.zshrc` из любой папки: `tunnel myserver` открывает Telani через http://localhost:8080, `tunnel myserver aircontroller` — Aircontrol через http://localhost:8082 (на сервере порт 8081). Держи терминал открытым. Сохраняются синтаксис `tunnel host local_port remote_port` и прежний вариант `tunnel myserver controller` с локальным портом 8081.
 
 В Adminer выбери PostgreSQL, сервер `db`, пользователя и базу `aircontrol` (либо свои POSTGRES_USER/POSTGRES_DB). Пароль — существующий POSTGRES_PASSWORD из серверной .env. Это пароль БД, не DEVICE_TOKEN.
