@@ -92,11 +92,7 @@ Telegram: [пошаговая инструкция](TELEGRAM.md). Доступн
 
 Compose запускает отдельный Adminer для этой БД на `127.0.0.1:8081`. PostgreSQL остаётся внутри сети Compose. Telani Adminer на 8080 не меняется.
 
-На Mac добавь в ~/.zshrc (путь к своему клону):
-
-```zsh
-source "/Volumes/doc-station/c++/esp32+PM5003/backend/scripts/tunnel.zsh"
-```
+На текущем Mac функция `tunnel` хранится непосредственно в `~/.zshrc`, а SSH-хосты — в `~/.ssh/config`. Зависимости от файлов backend нет. На другом компьютере требуется отдельно настроить SSH и перенаправление локального порта 8082 на серверный 127.0.0.1:8081.
 
 После `source ~/.zshrc` из любой папки: `tunnel myserver` открывает Telani через http://localhost:8080, `tunnel myserver aircontroller` — Aircontrol через http://localhost:8082 (на сервере порт 8081). Держи терминал открытым. Сохраняются синтаксис `tunnel host local_port remote_port` и прежний вариант `tunnel myserver controller` с локальным портом 8081.
 

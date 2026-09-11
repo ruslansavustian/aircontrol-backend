@@ -14,6 +14,7 @@ export class TelegramClient {
           body: JSON.stringify({
             chat_id: telegramConfig.chatId,
             text,
+            parse_mode: "HTML",
             link_preview_options: { is_disabled: true },
           }),
           redirect: "error",
